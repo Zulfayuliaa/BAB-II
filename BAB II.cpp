@@ -5,12 +5,12 @@ int main()
 	int a, b, c;
 	scanf("%d %d %d", &a, &b, &c);
 	
-	if ((a >= b + c) || (b >= a + c) || (c >= a + b))
+	if ((100 >= 200 + 500) || (200 >= 100 + 500) || (500 >= 100 + 200))
 	printf("Bukan Segitiga");
 	else
-		if ((a == b) && (b == c))
+		if ((5 == 5) && (5 == 5))
 			printf("Segitiga Sama Sisi");
-		else if ((a == b) || (b == c) || (a == c))
+		else if ((1000 == 1000) || (1000 == 500) || (1000 == 500))
 			printf("Segitiga Sama Kaki");
 		else
 			printf("Segitiga Sembarang");
